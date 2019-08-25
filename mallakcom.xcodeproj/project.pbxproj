@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AAE5AC22312F84100FAE1A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAE5AC12312F84100FAE1A4 /* AppDelegate.swift */; };
+		7AAE5AC42312F84100FAE1A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAE5AC32312F84100FAE1A4 /* ViewController.swift */; };
+		7AAE5AC72312F84100FAE1A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAE5AC52312F84100FAE1A4 /* Main.storyboard */; };
+		7AAE5ACA2312F84100FAE1A4 /* mallakcom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AAE5AC82312F84100FAE1A4 /* mallakcom.xcdatamodeld */; };
+		7AAE5ACC2312F84200FAE1A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AAE5ACB2312F84200FAE1A4 /* Assets.xcassets */; };
+		7AAE5ACF2312F84200FAE1A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAE5ACD2312F84200FAE1A4 /* LaunchScreen.storyboard */; };
+		7AAE5ADA2312F84200FAE1A4 /* mallakcomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAE5AD92312F84200FAE1A4 /* mallakcomTests.swift */; };
+		7AAE5AE52312F84200FAE1A4 /* mallakcomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAE5AE42312F84200FAE1A4 /* mallakcomUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AAE5AD62312F84200FAE1A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AAE5AB62312F84100FAE1A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AAE5ABD2312F84100FAE1A4;
+			remoteInfo = mallakcom;
+		};
+		7AAE5AE12312F84200FAE1A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AAE5AB62312F84100FAE1A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AAE5ABD2312F84100FAE1A4;
+			remoteInfo = mallakcom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AAE5ABE2312F84100FAE1A4 /* mallakcom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mallakcom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAE5AC12312F84100FAE1A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AAE5AC32312F84100FAE1A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AAE5AC62312F84100FAE1A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AAE5AC92312F84100FAE1A4 /* mallakcom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mallakcom.xcdatamodel; sourceTree = "<group>"; };
+		7AAE5ACB2312F84200FAE1A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AAE5ACE2312F84200FAE1A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AAE5AD02312F84200FAE1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AAE5AD52312F84200FAE1A4 /* mallakcomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mallakcomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAE5AD92312F84200FAE1A4 /* mallakcomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mallakcomTests.swift; sourceTree = "<group>"; };
+		7AAE5ADB2312F84200FAE1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AAE5AE02312F84200FAE1A4 /* mallakcomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mallakcomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAE5AE42312F84200FAE1A4 /* mallakcomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mallakcomUITests.swift; sourceTree = "<group>"; };
+		7AAE5AE62312F84200FAE1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AAE5ABB2312F84100FAE1A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAE5AD22312F84200FAE1A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAE5ADD2312F84200FAE1A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AAE5AB52312F84100FAE1A4 = {
+			isa = PBXGroup;
+			children = (
+				7AAE5AC02312F84100FAE1A4 /* mallakcom */,
+				7AAE5AD82312F84200FAE1A4 /* mallakcomTests */,
+				7AAE5AE32312F84200FAE1A4 /* mallakcomUITests */,
+				7AAE5ABF2312F84100FAE1A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AAE5ABF2312F84100FAE1A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AAE5ABE2312F84100FAE1A4 /* mallakcom.app */,
+				7AAE5AD52312F84200FAE1A4 /* mallakcomTests.xctest */,
+				7AAE5AE02312F84200FAE1A4 /* mallakcomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AAE5AC02312F84100FAE1A4 /* mallakcom */ = {
+			isa = PBXGroup;
+			children = (
+				7AAE5AC12312F84100FAE1A4 /* AppDelegate.swift */,
+				7AAE5AC32312F84100FAE1A4 /* ViewController.swift */,
+				7AAE5AC52312F84100FAE1A4 /* Main.storyboard */,
+				7AAE5ACB2312F84200FAE1A4 /* Assets.xcassets */,
+				7AAE5ACD2312F84200FAE1A4 /* LaunchScreen.storyboard */,
+				7AAE5AD02312F84200FAE1A4 /* Info.plist */,
+				7AAE5AC82312F84100FAE1A4 /* mallakcom.xcdatamodeld */,
+			);
+			path = mallakcom;
+			sourceTree = "<group>";
+		};
+		7AAE5AD82312F84200FAE1A4 /* mallakcomTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AAE5AD92312F84200FAE1A4 /* mallakcomTests.swift */,
+				7AAE5ADB2312F84200FAE1A4 /* Info.plist */,
+			);
+			path = mallakcomTests;
+			sourceTree = "<group>";
+		};
+		7AAE5AE32312F84200FAE1A4 /* mallakcomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AAE5AE42312F84200FAE1A4 /* mallakcomUITests.swift */,
+				7AAE5AE62312F84200FAE1A4 /* Info.plist */,
+			);
+			path = mallakcomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AAE5ABD2312F84100FAE1A4 /* mallakcom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AAE5AE92312F84200FAE1A4 /* Build configuration list for PBXNativeTarget "mallakcom" */;
+			buildPhases = (
+				7AAE5ABA2312F84100FAE1A4 /* Sources */,
+				7AAE5ABB2312F84100FAE1A4 /* Frameworks */,
+				7AAE5ABC2312F84100FAE1A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mallakcom;
+			productName = mallakcom;
+			productReference = 7AAE5ABE2312F84100FAE1A4 /* mallakcom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AAE5AD42312F84200FAE1A4 /* mallakcomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AAE5AEC2312F84200FAE1A4 /* Build configuration list for PBXNativeTarget "mallakcomTests" */;
+			buildPhases = (
+				7AAE5AD12312F84200FAE1A4 /* Sources */,
+				7AAE5AD22312F84200FAE1A4 /* Frameworks */,
+				7AAE5AD32312F84200FAE1A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AAE5AD72312F84200FAE1A4 /* PBXTargetDependency */,
+			);
+			name = mallakcomTests;
+			productName = mallakcomTests;
+			productReference = 7AAE5AD52312F84200FAE1A4 /* mallakcomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AAE5ADF2312F84200FAE1A4 /* mallakcomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AAE5AEF2312F84200FAE1A4 /* Build configuration list for PBXNativeTarget "mallakcomUITests" */;
+			buildPhases = (
+				7AAE5ADC2312F84200FAE1A4 /* Sources */,
+				7AAE5ADD2312F84200FAE1A4 /* Frameworks */,
+				7AAE5ADE2312F84200FAE1A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AAE5AE22312F84200FAE1A4 /* PBXTargetDependency */,
+			);
+			name = mallakcomUITests;
+			productName = mallakcomUITests;
+			productReference = 7AAE5AE02312F84200FAE1A4 /* mallakcomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AAE5AB62312F84100FAE1A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = mallakcom;
+				TargetAttributes = {
+					7AAE5ABD2312F84100FAE1A4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7AAE5AD42312F84200FAE1A4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7AAE5ABD2312F84100FAE1A4;
+					};
+					7AAE5ADF2312F84200FAE1A4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7AAE5ABD2312F84100FAE1A4;
+					};
+				};
+			};
+			buildConfigurationList = 7AAE5AB92312F84100FAE1A4 /* Build configuration list for PBXProject "mallakcom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AAE5AB52312F84100FAE1A4;
+			productRefGroup = 7AAE5ABF2312F84100FAE1A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AAE5ABD2312F84100FAE1A4 /* mallakcom */,
+				7AAE5AD42312F84200FAE1A4 /* mallakcomTests */,
+				7AAE5ADF2312F84200FAE1A4 /* mallakcomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AAE5ABC2312F84100FAE1A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAE5ACF2312F84200FAE1A4 /* LaunchScreen.storyboard in Resources */,
+				7AAE5ACC2312F84200FAE1A4 /* Assets.xcassets in Resources */,
+				7AAE5AC72312F84100FAE1A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAE5AD32312F84200FAE1A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAE5ADE2312F84200FAE1A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AAE5ABA2312F84100FAE1A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAE5AC42312F84100FAE1A4 /* ViewController.swift in Sources */,
+				7AAE5ACA2312F84100FAE1A4 /* mallakcom.xcdatamodeld in Sources */,
+				7AAE5AC22312F84100FAE1A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAE5AD12312F84200FAE1A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAE5ADA2312F84200FAE1A4 /* mallakcomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAE5ADC2312F84200FAE1A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAE5AE52312F84200FAE1A4 /* mallakcomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AAE5AD72312F84200FAE1A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AAE5ABD2312F84100FAE1A4 /* mallakcom */;
+			targetProxy = 7AAE5AD62312F84200FAE1A4 /* PBXContainerItemProxy */;
+		};
+		7AAE5AE22312F84200FAE1A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AAE5ABD2312F84100FAE1A4 /* mallakcom */;
+			targetProxy = 7AAE5AE12312F84200FAE1A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AAE5AC52312F84100FAE1A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AAE5AC62312F84100FAE1A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AAE5ACD2312F84200FAE1A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AAE5ACE2312F84200FAE1A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AAE5AE72312F84200FAE1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AAE5AE82312F84200FAE1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AAE5AEA2312F84200FAE1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4P385F3AG;
+				INFOPLIST_FILE = mallakcom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mallakcom.mallakcom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AAE5AEB2312F84200FAE1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4P385F3AG;
+				INFOPLIST_FILE = mallakcom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mallakcom.mallakcom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7AAE5AED2312F84200FAE1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4P385F3AG;
+				INFOPLIST_FILE = mallakcomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mallakcom.mallakcomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mallakcom.app/mallakcom";
+			};
+			name = Debug;
+		};
+		7AAE5AEE2312F84200FAE1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4P385F3AG;
+				INFOPLIST_FILE = mallakcomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mallakcom.mallakcomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mallakcom.app/mallakcom";
+			};
+			name = Release;
+		};
+		7AAE5AF02312F84200FAE1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4P385F3AG;
+				INFOPLIST_FILE = mallakcomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mallakcom.mallakcomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mallakcom;
+			};
+			name = Debug;
+		};
+		7AAE5AF12312F84200FAE1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4P385F3AG;
+				INFOPLIST_FILE = mallakcomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mallakcom.mallakcomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mallakcom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AAE5AB92312F84100FAE1A4 /* Build configuration list for PBXProject "mallakcom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAE5AE72312F84200FAE1A4 /* Debug */,
+				7AAE5AE82312F84200FAE1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AAE5AE92312F84200FAE1A4 /* Build configuration list for PBXNativeTarget "mallakcom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAE5AEA2312F84200FAE1A4 /* Debug */,
+				7AAE5AEB2312F84200FAE1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AAE5AEC2312F84200FAE1A4 /* Build configuration list for PBXNativeTarget "mallakcomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAE5AED2312F84200FAE1A4 /* Debug */,
+				7AAE5AEE2312F84200FAE1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AAE5AEF2312F84200FAE1A4 /* Build configuration list for PBXNativeTarget "mallakcomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAE5AF02312F84200FAE1A4 /* Debug */,
+				7AAE5AF12312F84200FAE1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7AAE5AC82312F84100FAE1A4 /* mallakcom.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7AAE5AC92312F84100FAE1A4 /* mallakcom.xcdatamodel */,
+			);
+			currentVersion = 7AAE5AC92312F84100FAE1A4 /* mallakcom.xcdatamodel */;
+			path = mallakcom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7AAE5AB62312F84100FAE1A4 /* Project object */;
+}
