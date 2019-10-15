@@ -3,10 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A101713232A5972007A541E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A101712232A5972007A541E /* String.swift */; };
+		7A101715232A5B00007A541E /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A101714232A5AFF007A541E /* helper.swift */; };
+		7A101717232A6BB3007A541E /* ProfileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A101716232A6BB3007A541E /* ProfileInfo.swift */; };
+		7A101719232A6F3A007A541E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A101718232A6F3A007A541E /* API.swift */; };
+		7A10171B232ACA96007A541E /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10171A232ACA96007A541E /* Address.swift */; };
+		7A10AB172327AAFA00043952 /* EditProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A10AB162327AAFA00043952 /* EditProfile.storyboard */; };
+		7A10AB1A2327D05100043952 /* VCeditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10AB192327D05100043952 /* VCeditProfile.swift */; };
+		7A10AB1C2327D66F00043952 /* cellEditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10AB1B2327D66F00043952 /* cellEditProfile.swift */; };
+		7A1911A22322BA2300C33C19 /* extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1911A12322BA2300C33C19 /* extention.swift */; };
+		7A1911A52322BA6D00C33C19 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A1911A72322BA6D00C33C19 /* Localizable.strings */; };
+		7A1911AB2322D5B500C33C19 /* VCsignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1911AA2322D5B500C33C19 /* VCsignUp.swift */; };
+		7A1911AD2322D5CF00C33C19 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1911AC2322D5CF00C33C19 /* SignUp.storyboard */; };
+		7A1911B32322F8E000C33C19 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1911B22322F8E000C33C19 /* RadioButton.swift */; };
+		7A2D7B31232945AC00978599 /* logoGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D7B2D232945AC00978599 /* logoGif.swift */; };
+		7A2D7B32232945AC00978599 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D7B2E232945AC00978599 /* UIView+Constraints.swift */; };
+		7A2D7B34232945AC00978599 /* LogoAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D7B30232945AC00978599 /* LogoAnimationView.swift */; };
+		7A2D7B362329487300978599 /* mallak-avi-splash.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7A2D7B352329487300978599 /* mallak-avi-splash.gif */; };
+		7A38F5702326941B00CC4412 /* SThomeUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A38F56F2326941B00CC4412 /* SThomeUser.storyboard */; };
+		7A38F5722326944300CC4412 /* VChomeUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A38F5712326944300CC4412 /* VChomeUser.swift */; };
+		7A66E7282326952C008BC8AB /* VChomeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66E7272326952C008BC8AB /* VChomeProvider.swift */; };
+		7A66E72A2326954B008BC8AB /* SThomeProvider.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A66E7292326954B008BC8AB /* SThomeProvider.storyboard */; };
+		7A9465792329037600866FA5 /* YNExpandableCellEx.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A9465752329037600866FA5 /* YNExpandableCellEx.xib */; };
+		7A94657A2329037600866FA5 /* YNExpandableCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9465762329037600866FA5 /* YNExpandableCells.swift */; };
+		7A94657B2329037600866FA5 /* YNSegmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A9465772329037600866FA5 /* YNSegmentCell.xib */; };
+		7A94657C2329037600866FA5 /* YNSliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A9465782329037600866FA5 /* YNSliderCell.xib */; };
 		7AAE5AC22312F84100FAE1A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAE5AC12312F84100FAE1A4 /* AppDelegate.swift */; };
 		7AAE5AC42312F84100FAE1A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAE5AC32312F84100FAE1A4 /* ViewController.swift */; };
 		7AAE5AC72312F84100FAE1A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAE5AC52312F84100FAE1A4 /* Main.storyboard */; };
@@ -15,6 +40,11 @@
 		7AAE5ACF2312F84200FAE1A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAE5ACD2312F84200FAE1A4 /* LaunchScreen.storyboard */; };
 		7AAE5ADA2312F84200FAE1A4 /* mallakcomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAE5AD92312F84200FAE1A4 /* mallakcomTests.swift */; };
 		7AAE5AE52312F84200FAE1A4 /* mallakcomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAE5AE42312F84200FAE1A4 /* mallakcomUITests.swift */; };
+		7AAE5AF32312FB2800FAE1A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AAE5AF22312FB2800FAE1A4 /* GoogleService-Info.plist */; };
+		7AEF9B1E23202C1D00126389 /* MallakButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEF9B1D23202C1D00126389 /* MallakButton.swift */; };
+		7AEF9B21232030C800126389 /* MallakLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEF9B20232030C800126389 /* MallakLoginView.swift */; };
+		7AEF9B24232049EF00126389 /* VClogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEF9B23232049EF00126389 /* VClogin.swift */; };
+		CD1E4FDF899EA009C9D0B2F5 /* Pods_mallakcom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651BD69789F18AFA419EF420 /* Pods_mallakcom.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +65,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EC0FC0606D71E334D02E39C /* Pods-mallakcom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mallakcom.release.xcconfig"; path = "Pods/Target Support Files/Pods-mallakcom/Pods-mallakcom.release.xcconfig"; sourceTree = "<group>"; };
+		651BD69789F18AFA419EF420 /* Pods_mallakcom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mallakcom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A101712232A5972007A541E /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		7A101714232A5AFF007A541E /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
+		7A101716232A6BB3007A541E /* ProfileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfo.swift; sourceTree = "<group>"; };
+		7A101718232A6F3A007A541E /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		7A10171A232ACA96007A541E /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		7A10AB162327AAFA00043952 /* EditProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditProfile.storyboard; sourceTree = "<group>"; };
+		7A10AB192327D05100043952 /* VCeditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCeditProfile.swift; sourceTree = "<group>"; };
+		7A10AB1B2327D66F00043952 /* cellEditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellEditProfile.swift; sourceTree = "<group>"; };
+		7A1911A12322BA2300C33C19 /* extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extention.swift; sourceTree = "<group>"; };
+		7A1911A62322BA6D00C33C19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7A1911AA2322D5B500C33C19 /* VCsignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCsignUp.swift; sourceTree = "<group>"; };
+		7A1911AC2322D5CF00C33C19 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		7A1911B22322F8E000C33C19 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		7A2D7B2D232945AC00978599 /* logoGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = logoGif.swift; sourceTree = "<group>"; };
+		7A2D7B2E232945AC00978599 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		7A2D7B30232945AC00978599 /* LogoAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoAnimationView.swift; sourceTree = "<group>"; };
+		7A2D7B352329487300978599 /* mallak-avi-splash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "mallak-avi-splash.gif"; sourceTree = "<group>"; };
+		7A38F56F2326941B00CC4412 /* SThomeUser.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SThomeUser.storyboard; sourceTree = "<group>"; };
+		7A38F5712326944300CC4412 /* VChomeUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VChomeUser.swift; sourceTree = "<group>"; };
+		7A66E7272326952C008BC8AB /* VChomeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VChomeProvider.swift; sourceTree = "<group>"; };
+		7A66E7292326954B008BC8AB /* SThomeProvider.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SThomeProvider.storyboard; sourceTree = "<group>"; };
+		7A9465752329037600866FA5 /* YNExpandableCellEx.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YNExpandableCellEx.xib; path = "mallakcom/Common/Edit Profile/Model/YNExpandableCellEx.xib"; sourceTree = SOURCE_ROOT; };
+		7A9465762329037600866FA5 /* YNExpandableCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YNExpandableCells.swift; path = "mallakcom/Common/Edit Profile/Model/YNExpandableCells.swift"; sourceTree = SOURCE_ROOT; };
+		7A9465772329037600866FA5 /* YNSegmentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YNSegmentCell.xib; path = "mallakcom/Common/Edit Profile/Model/YNSegmentCell.xib"; sourceTree = SOURCE_ROOT; };
+		7A9465782329037600866FA5 /* YNSliderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YNSliderCell.xib; path = "mallakcom/Common/Edit Profile/Model/YNSliderCell.xib"; sourceTree = SOURCE_ROOT; };
 		7AAE5ABE2312F84100FAE1A4 /* mallakcom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mallakcom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AAE5AC12312F84100FAE1A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AAE5AC32312F84100FAE1A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +106,12 @@
 		7AAE5AE02312F84200FAE1A4 /* mallakcomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mallakcomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AAE5AE42312F84200FAE1A4 /* mallakcomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mallakcomUITests.swift; sourceTree = "<group>"; };
 		7AAE5AE62312F84200FAE1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AAE5AF22312FB2800FAE1A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7AEF9B1D23202C1D00126389 /* MallakButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallakButton.swift; sourceTree = "<group>"; };
+		7AEF9B20232030C800126389 /* MallakLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallakLoginView.swift; sourceTree = "<group>"; };
+		7AEF9B2223203ACA00126389 /* mallakcom.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mallakcom.entitlements; sourceTree = "<group>"; };
+		7AEF9B23232049EF00126389 /* VClogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VClogin.swift; sourceTree = "<group>"; };
+		D71EFBFEADACE14030551F54 /* Pods-mallakcom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mallakcom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mallakcom/Pods-mallakcom.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1E4FDF899EA009C9D0B2F5 /* Pods_mallakcom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +140,207 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06B4F095662C85B76427F836 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D71EFBFEADACE14030551F54 /* Pods-mallakcom.debug.xcconfig */,
+				1EC0FC0606D71E334D02E39C /* Pods-mallakcom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A101711232A5841007A541E /* logo Animation */ = {
+			isa = PBXGroup;
+			children = (
+				7A2D7B352329487300978599 /* mallak-avi-splash.gif */,
+				7A2D7B30232945AC00978599 /* LogoAnimationView.swift */,
+				7A2D7B2D232945AC00978599 /* logoGif.swift */,
+				7A2D7B2E232945AC00978599 /* UIView+Constraints.swift */,
+			);
+			path = "logo Animation";
+			sourceTree = "<group>";
+		};
+		7A10AB112327A9EA00043952 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7A10AB142327AAB400043952 /* Edit Profile */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7A10AB122327AAB000043952 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A9465752329037600866FA5 /* YNExpandableCellEx.xib */,
+				7A9465772329037600866FA5 /* YNSegmentCell.xib */,
+				7A9465782329037600866FA5 /* YNSliderCell.xib */,
+				7A10AB162327AAFA00043952 /* EditProfile.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A10AB132327AAB200043952 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A9465762329037600866FA5 /* YNExpandableCells.swift */,
+				7A10AB1B2327D66F00043952 /* cellEditProfile.swift */,
+				7A101716232A6BB3007A541E /* ProfileInfo.swift */,
+				7A10171A232ACA96007A541E /* Address.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A10AB142327AAB400043952 /* Edit Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7A10AB132327AAB200043952 /* Model */,
+				7A10AB122327AAB000043952 /* View */,
+				7A10AB152327AAE000043952 /* Controller */,
+			);
+			path = "Edit Profile";
+			sourceTree = "<group>";
+		};
+		7A10AB152327AAE000043952 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A10AB192327D05100043952 /* VCeditProfile.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A1911A02322BA0A00C33C19 /* extentions */ = {
+			isa = PBXGroup;
+			children = (
+				7A1911A12322BA2300C33C19 /* extention.swift */,
+				7A1911A72322BA6D00C33C19 /* Localizable.strings */,
+			);
+			path = extentions;
+			sourceTree = "<group>";
+		};
+		7A1911A82322D55C00C33C19 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				7A1911B12322F8C200C33C19 /* Model */,
+				7A1911AF2322D60F00C33C19 /* View */,
+				7A1911A92322D5A000C33C19 /* Controller */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		7A1911A92322D5A000C33C19 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A1911AA2322D5B500C33C19 /* VCsignUp.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A1911AF2322D60F00C33C19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A1911AC2322D5CF00C33C19 /* SignUp.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A1911B02322D62700C33C19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AAE5AC52312F84100FAE1A4 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A1911B12322F8C200C33C19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A1911B22322F8E000C33C19 /* RadioButton.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A38F56A2326931A00CC4412 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				7A38F56B2326934B00CC4412 /* Home */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		7A38F56B2326934B00CC4412 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7A38F56C2326936200CC4412 /* Model */,
+				7A38F56D2326937200CC4412 /* View */,
+				7A38F56E2326937900CC4412 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7A38F56C2326936200CC4412 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A38F56D2326937200CC4412 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A38F56F2326941B00CC4412 /* SThomeUser.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A38F56E2326937900CC4412 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A38F5712326944300CC4412 /* VChomeUser.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A66E722232694A5008BC8AB /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				7A66E723232694BA008BC8AB /* Home */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		7A66E723232694BA008BC8AB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7A66E725232694D0008BC8AB /* Model */,
+				7A66E724232694C2008BC8AB /* View */,
+				7A66E726232694DB008BC8AB /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7A66E724232694C2008BC8AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A66E7292326954B008BC8AB /* SThomeProvider.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A66E725232694D0008BC8AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A66E726232694DB008BC8AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A66E7272326952C008BC8AB /* VChomeProvider.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		7AAE5AB52312F84100FAE1A4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +348,8 @@
 				7AAE5AD82312F84200FAE1A4 /* mallakcomTests */,
 				7AAE5AE32312F84200FAE1A4 /* mallakcomUITests */,
 				7AAE5ABF2312F84100FAE1A4 /* Products */,
+				06B4F095662C85B76427F836 /* Pods */,
+				8EFBFC80348EA2AEB0BE1E6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +366,24 @@
 		7AAE5AC02312F84100FAE1A4 /* mallakcom */ = {
 			isa = PBXGroup;
 			children = (
+				7A1911A02322BA0A00C33C19 /* extentions */,
+				7AEF9B2223203ACA00126389 /* mallakcom.entitlements */,
 				7AAE5AC12312F84100FAE1A4 /* AppDelegate.swift */,
 				7AAE5AC32312F84100FAE1A4 /* ViewController.swift */,
-				7AAE5AC52312F84100FAE1A4 /* Main.storyboard */,
 				7AAE5ACB2312F84200FAE1A4 /* Assets.xcassets */,
 				7AAE5ACD2312F84200FAE1A4 /* LaunchScreen.storyboard */,
+				7AAE5AF22312FB2800FAE1A4 /* GoogleService-Info.plist */,
 				7AAE5AD02312F84200FAE1A4 /* Info.plist */,
 				7AAE5AC82312F84100FAE1A4 /* mallakcom.xcdatamodeld */,
+				7A101712232A5972007A541E /* String.swift */,
+				7A101711232A5841007A541E /* logo Animation */,
+				7AEF9B1C23202BF700126389 /* Login */,
+				7A1911A82322D55C00C33C19 /* Sign Up */,
+				7A38F56A2326931A00CC4412 /* Customer */,
+				7A66E722232694A5008BC8AB /* Provider */,
+				7A10AB112327A9EA00043952 /* Common */,
+				7A101714232A5AFF007A541E /* helper.swift */,
+				7A101718232A6F3A007A541E /* API.swift */,
 			);
 			path = mallakcom;
 			sourceTree = "<group>";
@@ -128,6 +406,41 @@
 			path = mallakcomUITests;
 			sourceTree = "<group>";
 		};
+		7AEF9B1C23202BF700126389 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7A1911B02322D62700C33C19 /* View */,
+				7AEF9B25232049F500126389 /* Controller */,
+				7AEF9B1F232030B300126389 /* Style */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7AEF9B1F232030B300126389 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				7AEF9B1D23202C1D00126389 /* MallakButton.swift */,
+				7AEF9B20232030C800126389 /* MallakLoginView.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		7AEF9B25232049F500126389 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AEF9B23232049EF00126389 /* VClogin.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8EFBFC80348EA2AEB0BE1E6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				651BD69789F18AFA419EF420 /* Pods_mallakcom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +448,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AAE5AE92312F84200FAE1A4 /* Build configuration list for PBXNativeTarget "mallakcom" */;
 			buildPhases = (
+				92CD9CA40D6376B3AE762B43 /* [CP] Check Pods Manifest.lock */,
 				7AAE5ABA2312F84100FAE1A4 /* Sources */,
 				7AAE5ABB2312F84100FAE1A4 /* Frameworks */,
 				7AAE5ABC2312F84100FAE1A4 /* Resources */,
+				379C33DE6F444D68C4B47FC9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +511,11 @@
 				TargetAttributes = {
 					7AAE5ABD2312F84100FAE1A4 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					7AAE5AD42312F84200FAE1A4 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -232,9 +552,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A1911A52322BA6D00C33C19 /* Localizable.strings in Resources */,
+				7A94657B2329037600866FA5 /* YNSegmentCell.xib in Resources */,
 				7AAE5ACF2312F84200FAE1A4 /* LaunchScreen.storyboard in Resources */,
+				7A94657C2329037600866FA5 /* YNSliderCell.xib in Resources */,
+				7A10AB172327AAFA00043952 /* EditProfile.storyboard in Resources */,
+				7A2D7B362329487300978599 /* mallak-avi-splash.gif in Resources */,
+				7A1911AD2322D5CF00C33C19 /* SignUp.storyboard in Resources */,
+				7A66E72A2326954B008BC8AB /* SThomeProvider.storyboard in Resources */,
+				7A38F5702326941B00CC4412 /* SThomeUser.storyboard in Resources */,
+				7AAE5AF32312FB2800FAE1A4 /* GoogleService-Info.plist in Resources */,
 				7AAE5ACC2312F84200FAE1A4 /* Assets.xcassets in Resources */,
 				7AAE5AC72312F84100FAE1A4 /* Main.storyboard in Resources */,
+				7A9465792329037600866FA5 /* YNExpandableCellEx.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +584,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		379C33DE6F444D68C4B47FC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mallakcom/Pods-mallakcom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mallakcom/Pods-mallakcom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mallakcom/Pods-mallakcom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92CD9CA40D6376B3AE762B43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mallakcom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7AAE5ABA2312F84100FAE1A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A38F5722326944300CC4412 /* VChomeUser.swift in Sources */,
+				7A1911B32322F8E000C33C19 /* RadioButton.swift in Sources */,
+				7A1911AB2322D5B500C33C19 /* VCsignUp.swift in Sources */,
 				7AAE5AC42312F84100FAE1A4 /* ViewController.swift in Sources */,
 				7AAE5ACA2312F84100FAE1A4 /* mallakcom.xcdatamodeld in Sources */,
+				7A101717232A6BB3007A541E /* ProfileInfo.swift in Sources */,
 				7AAE5AC22312F84100FAE1A4 /* AppDelegate.swift in Sources */,
+				7A101715232A5B00007A541E /* helper.swift in Sources */,
+				7A2D7B31232945AC00978599 /* logoGif.swift in Sources */,
+				7AEF9B1E23202C1D00126389 /* MallakButton.swift in Sources */,
+				7A66E7282326952C008BC8AB /* VChomeProvider.swift in Sources */,
+				7AEF9B24232049EF00126389 /* VClogin.swift in Sources */,
+				7A2D7B34232945AC00978599 /* LogoAnimationView.swift in Sources */,
+				7A101719232A6F3A007A541E /* API.swift in Sources */,
+				7A1911A22322BA2300C33C19 /* extention.swift in Sources */,
+				7A101713232A5972007A541E /* String.swift in Sources */,
+				7A94657A2329037600866FA5 /* YNExpandableCells.swift in Sources */,
+				7A10AB1C2327D66F00043952 /* cellEditProfile.swift in Sources */,
+				7A10AB1A2327D05100043952 /* VCeditProfile.swift in Sources */,
+				7AEF9B21232030C800126389 /* MallakLoginView.swift in Sources */,
+				7A10171B232ACA96007A541E /* Address.swift in Sources */,
+				7A2D7B32232945AC00978599 /* UIView+Constraints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +688,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		7A1911A72322BA6D00C33C19 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A1911A62322BA6D00C33C19 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		7AAE5AC52312F84100FAE1A4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -367,7 +766,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +821,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -434,16 +833,19 @@
 		};
 		7AAE5AEA2312F84200FAE1A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71EFBFEADACE14030551F54 /* Pods-mallakcom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mallakcom/mallakcom.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q4P385F3AG;
+				DEVELOPMENT_TEAM = XLC5SUYCUR;
 				INFOPLIST_FILE = mallakcom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mallakcom.mallakcom;
+				PRODUCT_BUNDLE_IDENTIFIER = mallakcom.mallakcomm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,16 +854,19 @@
 		};
 		7AAE5AEB2312F84200FAE1A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EC0FC0606D71E334D02E39C /* Pods-mallakcom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mallakcom/mallakcom.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q4P385F3AG;
+				DEVELOPMENT_TEAM = XLC5SUYCUR;
 				INFOPLIST_FILE = mallakcom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mallakcom.mallakcom;
+				PRODUCT_BUNDLE_IDENTIFIER = mallakcom.mallakcomm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
